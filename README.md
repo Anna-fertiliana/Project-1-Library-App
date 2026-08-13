@@ -1,10 +1,18 @@
 # 📚 Library Web App (Frontend)
 
-A modern Library Web Application built with React, featuring authentication, book browsing, borrowing system, and user management. This project focuses on clean architecture, responsive UI, and efficient state/data handling.
+A modern and responsive library management application built with **React** and **TypeScript**. The application allows users to discover books, borrow them, manage their reading history, and leave reviews through an intuitive and user-friendly interface.
 
 ---
 
-## 🚀 Features
+## ✨ Highlights
+
+- 🔐 JWT Authentication
+- 📚 Browse & Search Books
+- 📦 Borrowing System
+- ⭐ Book Reviews
+- 👤 User Dashboard
+- ⚡ Optimistic UI
+- 📱 Responsive Design
 
 ### 🔐 Authentication
 
@@ -41,17 +49,15 @@ A modern Library Web Application built with React, featuring authentication, boo
 * Full access to manage system data (if role = ADMIN)
 
 ---
+## 🛠 Tech Stack
 
-## 🧰 Tech Stack
-
-* **React + TypeScript** — Component-based UI with type safety
-* **Tailwind CSS** — Utility-first styling
-* **shadcn/ui** — Prebuilt UI components
-* **Redux Toolkit** — Global state management
-* **TanStack Query (React Query)** — Data fetching & caching
-* **Axios** — API communication
-* **Day.js** — Date formatting
-* *(Optional)* **Framer Motion** — Animations
+- React
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit
+- TanStack Query
+- Axios
+- Day.js
 
 ---
 
@@ -168,7 +174,7 @@ https://library-backend-production-b9cf.up.railway.app/api-swagger
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots 
 
 ### 🏠 Home Page
 
@@ -180,7 +186,7 @@ Main landing page featuring the “Welcome to Booky” banner, navigation bar, a
 
 ### 📚 Recommendation Section
 
-![Recommendation](./screenshots/Recomendation.png)
+![Recommendation](./screenshots/Recommendation.png)
 
 Displays a list of recommended books in card format, including ratings and author information.
 
@@ -230,7 +236,7 @@ Borrowing page with features:
 
 ### 📦 Borrowed List
 
-![Borrowed List](./screenshots/borrowed.png)
+![Borrowed List](./screenshots/Borrowed-List.png)
 
 Displays borrowed and returned books with status:
 
@@ -269,7 +275,6 @@ This project is actively maintained and open for improvements.
 You can deploy this app easily using:
 
 * Vercel (recommended)
-* Netlify
 
 ---
 
